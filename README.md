@@ -1,2 +1,2 @@
-# blabot-dictionaries
+# Blabot dictionaries
 Curated set of Blabot dictionaries
