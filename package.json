@@ -1,0 +1,23 @@
+{
+  "name": "blabot-dictionaries",
+  "version": "0.1.0",
+  "description": "Curated set of Blabot dictionaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blabot/blabot-dictionaries.git"
+  },
+  "keywords": [
+    "blabot",
+    "dictionary"
+  ],
+  "author": "Tomas Kuba <tomas.kuba.cz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blabot/blabot-dictionaries/issues"
+  },
+  "homepage": "https://github.com/blabot/blabot-dictionaries#readme"
+}
