@@ -12,8 +12,8 @@
     },
     "cs-capek.json": {
       "name": "Čapek czech",
-      "nameLocal": "Čapekovská čeština",
-      "description": "Dictionary based on stories by Jarel Čapek",
+      "nameLocal": "Čapkovská čeština",
+      "description": "Dictionary based on stories by Karel Čapek",
       "descriptionLocal": "Slovník vygenerovaný z povídek Karla Čapka",
       "author": "Tomáš Kuba",
       "created": "2015-06-18 21:23:00",

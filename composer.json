@@ -1,0 +1,29 @@
+{
+    "name": "blabot/blabot-dictionaries",
+    "description": "Curated set of Blabot dictionaries",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Kuba",
+            "email": "tomas.kuba.cz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blabot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blabot\\Dictionaries\\Tests\\": "tests/"
+        }
+    }
+}
