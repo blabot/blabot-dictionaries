@@ -2,7 +2,8 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use \Blabot\LocalFSAdapter;
+use Blabot\StorageAdapter\LocalFSAdapter;
+use Blabot\StorageAdapter\FilesystemException;
 
 class LocalFSAdapterTest extends TestCase
 {
@@ -25,7 +26,7 @@ class LocalFSAdapterTest extends TestCase
         $indexFile = __DIR__ . "/../invalid-index";
         $dataDir = __DIR__ . "/../data";
         $adapter = new LocalFSAdapter($indexFile, $dataDir);
-        $this->expectException(\Blabot\FilesystemException::class);
+        $this->expectException(\Blabot\StorageAdapter\FilesystemException::class);
         $adapter->loadIndex();
     }
 
@@ -38,7 +39,7 @@ class LocalFSAdapterTest extends TestCase
 
     public function testThrowsOnInvalidDictionaryId(): void
     {
-        $this->expectException(\Blabot\FilesystemException::class);
+        $this->expectException(\Blabot\StorageAdapter\FilesystemException::class);
         $this->adapter->loadDictionary('invalid-id');
     }
 

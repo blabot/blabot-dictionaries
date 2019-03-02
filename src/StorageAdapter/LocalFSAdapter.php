@@ -1,10 +1,8 @@
 <?php
 declare(strict_types=1);
 
-namespace Blabot;
+namespace Blabot\StorageAdapter;
 
-
-use mysql_xdevapi\Exception;
 
 class LocalFSAdapter implements StorageAdapterInterface
 {

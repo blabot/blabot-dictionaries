@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Blabot;
+namespace Blabot\StorageAdapter;
 
 class FilesystemException extends \Exception
 {
