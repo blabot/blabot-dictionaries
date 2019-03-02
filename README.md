@@ -9,7 +9,7 @@ Curated set of Blabot dictionaries
 
 ### Use as PHP module:
     
-    $ composer install blabot/blabot-dictionaries
+    $ composer require blabot/blabot-dictionaries
 
 ### Use as web resource:
 
