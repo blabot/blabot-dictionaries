@@ -31,7 +31,6 @@
       "language": "cs"
     },
     "cs-legal.json": {
-      "file": "",
       "name": "Legal czech",
       "nameLocal": "Právnická čeština",
       "description": "Dictionary based on czech Copyright Act",
@@ -40,6 +39,16 @@
       "created": "2015-06-18 21:29:24",
       "updated": "2015-06-18 21:29:24",
       "language": "cs"
+    },
+    "sk-legal.json": {
+      "name": "Legal slovak",
+      "nameLocal": "Právnická slovečina",
+      "description": "Dictionary based on Slovak Copyright Act",
+      "descriptionLocal": "Slovník vytvorený z autorského zákona SR",
+      "author": "Tomáš Kuba",
+      "created": "2019-06-25 20:01:18",
+      "updated": "2019-06-25 20:53:29",
+      "language": "sk"
     }
   }
 }
