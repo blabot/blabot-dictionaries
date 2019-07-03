@@ -40,6 +40,26 @@
       "updated": "2015-06-18 21:29:24",
       "language": "cs"
     },
+    "sk.json": {
+      "name": "Modern Slovak",
+      "nameLocal": "Moderná slovenčina",
+      "description": "Universal slovak dictionary based on mix of several modern texts.",
+      "descriptionLocal": "Univerzálný slovenský slovník vytvorený z moderných textov",
+      "author": "Tomáš  Kuba",
+      "created": "2019-07-02 20:34:02",
+      "updated": "2019-07-02 20:40:05",
+      "language": "sk"
+    },
+    "sk-sturovcina.json": {
+      "name": "Štúr based dictionary",
+      "nameLocal": "Štúrovčina",
+      "description": "Slovak language as proposed by L. Štúr",
+      "descriptionLocal": "Slovenčina ako ju presazoval L. Štúr",
+      "author": "Tomáš Kuba",
+      "created": "2019-06-29 20:51:28",
+      "updated": "2019-06-30 20:37:11",
+      "language": "sk"
+    },
     "sk-legal.json": {
       "name": "Legal slovak",
       "nameLocal": "Právnická slovečina",
